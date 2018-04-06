@@ -414,6 +414,8 @@
 #define D_SENSOR_SDS0X1   "SDS0X1"
 #define D_SENSOR_SBR_RX   "SerBr Rx"
 #define D_SENSOR_SBR_TX   "SerBr Tx"
+#define D_SENSOR_HCSR04_TRIG  "HC-SR04 Trig"
+#define D_SENSOR_HCSR04_ECHO  "HC-SR04 Echo"
 
 // Units
 #define D_UNIT_AMPERE "А"

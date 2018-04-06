@@ -73,6 +73,7 @@ void WifiWpsStatusCallback(wps_cb_status status);
 #endif
 //  #define USE_WS2812_DMA                      // DMA supports only GPIO03 (= Serial RXD) (+1k mem). When USE_WS2812_DMA is enabled expect Exceptions on Pow
 #define USE_ARILUX_RF                         // Add support for Arilux RF remote controller (+0k8 code, 252 iram (non 2.3.0))
+#define USE_HCSR04                            // Add support for HC-SR04 Ultrasonic sensor
 #endif  // USE_ALL_SENSORS =====================
 
 #if defined(USE_DS18x20) || defined(USE_DS18x20_LEGACY)
